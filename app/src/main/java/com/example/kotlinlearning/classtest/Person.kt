@@ -1,4 +1,4 @@
-package com.example.kotlinlearning.model
+package com.example.kotlinlearning.classtest
 
 /**
  * 想要被继承需要加上open声明

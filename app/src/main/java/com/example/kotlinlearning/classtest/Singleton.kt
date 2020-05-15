@@ -1,4 +1,4 @@
-package com.example.kotlinlearning.model
+package com.example.kotlinlearning.classtest
 
 /**
  * object 关键字声明单例类，自动保证全局只有一个单例

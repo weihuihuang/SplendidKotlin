@@ -1,4 +1,4 @@
-package com.example.kotlinlearning.model
+package com.example.kotlinlearning.classtest
 
 class TestInetrfaceImpl : Person(), TestInterface{
 
