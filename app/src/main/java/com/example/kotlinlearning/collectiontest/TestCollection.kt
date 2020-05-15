@@ -46,5 +46,8 @@ class TestCollection {
         for(f in secondMap.keys){
             println("遍历hashmap-->${secondMap[f]}")
         }
+        for((key,value) in secondMap){
+            println("遍历hashmap-->key:$key-->value:$value")
+        }
     }
 }
