@@ -18,6 +18,11 @@ class TestCollection {
         for(j in mutableList){
            println("mutableList--->$j")
         }
+        println("max length:" + mutableList.maxBy{it.length})
+
+        var filterList = mutableList.filter { it.length >=5  }
+        //map返回一个全新的list
+        var mapList = filterList.map { it.toUpperCase() }
     }
 
     fun runTestSet(){
@@ -30,6 +35,7 @@ class TestCollection {
         for(i in secondSet){
             println("secondSet test--->$i" )
         }
+        println("max length:" + secondSet.maxBy{it.length})
     }
 
     fun runTestMap(){
@@ -49,5 +55,7 @@ class TestCollection {
         for((key,value) in secondMap){
             println("遍历hashmap-->key:$key-->value:$value")
         }
+        println("max length:" + secondMap.minBy{it.key})
+        println("max length:" + secondMap.maxBy{it.value})
     }
 }
